@@ -1,0 +1,137 @@
+
+/* Стили для всего body */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #0098ea;
+}
+
+/* Стили для header */
+.header {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 40%;
+    order: 2;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+/*.header {
+    position: fixed;
+    border-bottom: 8px solid #2a2832;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 8px solid #2a2832;
+    border-right: 8px solid #2a2832;
+    align-items: center;
+
+}*/
+
+.logo {
+    margin: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.logo p {
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    display: inline;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.ln-content {
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0 48px;
+    text-align: center;
+}
+
+.ln-content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 20px;
+    color: #fefeff;
+}
+
+.road {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.road h2 {
+    font-size: 80px;
+    line-height: 84px;
+    margin: 10px 0;
+    color: #fefeff;
+}
+
+/* Стили для блоков внутри header */
+.block {
+    display: block;
+    margin: 0 10px;
+    position: relative;
+
+    background: #15102e;
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+}
+
+.blocks {
+    margin-top: 10px;
+    position: relative;
+
+}
+
+/* Стили для заголовка h1 */
+h1 {
+    font-size: 24px;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: #919095;
+}
+
+.span {
+    width: 3px;
+    height: 3px;
+    padding-left: 95%;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 2;
+}
+
+p {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #fefeff;
+}
+
+hr {
+    margin-left: 5px;
+    margin-right: 30%;
+}
+
+/* Анимация при наведении на блок */
+.block:hover {
+<!--            background-color: red;-->
+    color: white;
+    box-shadow: 5px 5px 5px #19de8b;
+}
