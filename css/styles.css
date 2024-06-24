@@ -98,8 +98,9 @@ body {
 
 /* Стили для заголовка h1 */
 h1 {
-    font-size: 24px;
+    font-size: 17px;
     padding-left: 25px;
+    padding-right: 25px;
     padding-top: 10px;
     color: #919095;
 }
